@@ -62,3 +62,6 @@ script_name, first_para, second_para, third_para = argv
 print "the script name is ", script_name , "with first" , first_para ,"and second" , second_para
 print "this is"
 
+txt = open(first_para)
+print "your file is %s " %first_para
+print txt.read()
